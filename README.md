@@ -36,4 +36,5 @@ This book search engine allows the user to find books using the Google Book Sear
 
 * [GitHub](https://github.com/OnlyMeHere)
 <br>
+
 * [LinkedIn](linkedin.com/in/jamesbennett1here)
