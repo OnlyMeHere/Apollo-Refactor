@@ -2,6 +2,14 @@
 
 This REACT application has been refactored to an Apollo Server using GraphQL from a RESTful API.
 
+## Deployed Site:
+
+[Apollo-Refactor](https://damp-mountain-35388.herokuapp.com/)
+
+## GitHub Repository:
+
+[Apollo-Refactor](https://github.com/OnlyMeHere/Apollo-Refactor)
+
 ## Technologies Used:
 
 * REACT.js
