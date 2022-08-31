@@ -1,3 +1,18 @@
+import React from 'react';
+import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
+
+import LoginForm from '../components/LoginForm';
+import Navbar from '../Navbar';
+import SignupForm from '../SignupForm';
+
+const client = new ApolloClient({
+  uri: '/graphql',
+  cache: new InMemoryCache(),
+});
+
+
+
+
 // route to get logged in user's info (needs the token)
 export const getMe = (token) => {
   return fetch('/api/users/me', {

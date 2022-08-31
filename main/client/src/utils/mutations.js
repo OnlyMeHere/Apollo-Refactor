@@ -17,3 +17,24 @@ export const DELETE_BOOK = gql`
     }
   }
 `;
+
+export const LOGIN_USER = gql`
+  mutation loginUser($username: String!, $email: String!) {
+    loginUser(username: $username) {
+      token
+      email
+
+    }
+  }
+`;
+
+export const ADD_USER = gql`
+  mutation addUser($username: String!) {
+    addUser(username: $username) {
+      token
+      email
+      
+    }
+  }
+`;
+
